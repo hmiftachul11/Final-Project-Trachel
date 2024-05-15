@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif
+
+}
+.navbar{
+    background-color: #8ab1d1;
+    font-weight: 800;
+    font-size: 15px;
+    height: 60px;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-link.hover {
+    color: #195786;
+}
+
+.nav-style {
+    height: 15px;
+    width: 200px;
+}
+.button1{
+    font-size: 14px;
+    background-color: #195786;
+    color: white;
+    font-weight:bold;
+    width: 150px;
+    padding: 8px 20px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.button1:hover{
+    background-color: white;
+    color: #195786;
+    border: 1px solid #195786;
+}
+.nav-link-active {
+    color: #ffff !important; /* Change the color to orange for the active link */
+  }
+
+ @keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinning {
+    animation: spin 1s infinite linear;
+}
+
+
+
+@media (max-width: 768px) {
+    .navbar {
+        height: auto;
+    }
+    .navbar-brand, .nav-link {
+        font-size: 20px; /* Make the font smaller */
+    }
+
+    .nav {
+        font-size: 12px; /* Adjust nav font size for mobile */
+    }
+
+    .nav-style {
+        font-size: 12px; /* Adjust button font size for mobile */
+        padding: .375rem .75rem; /* Bootstrap default padding for buttons */
+    }
+
+    .navbar-toggler {
+        font-size: 14px; /* Adjust the toggler icon size if needed */
+    }
+}
+
+/* You might also want to adjust the height of the navbar itself for mobile */
+.navbar {
+    height: auto; 
+    /* Auto height to accommodate the toggler and brand */
+}
+

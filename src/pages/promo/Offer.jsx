@@ -36,7 +36,7 @@ const Offer = () => {
               {/* header offer */}
               <div className="container-fluid offer" >
                     <div className="container-fluid offer1" data-aos="" data-aos-duration="500">
-                    <div className="container offer-layout" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)', height: '500px' }}>
+                    <div className="container offer-layout" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)', height: '500px' }}>
                                 <div className="row" style={{ height: '100%' }}>
                                     <div className="col-6 text-left offer-header-section" > 
                                         <h1 data-aos="fade-right" data-aos-duration="700">
